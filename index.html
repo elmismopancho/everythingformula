@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Everything Formula Plotter</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <style type="text/css">
+      canvas { border: 1px solid #ccc; }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="big.min.js"></script>
+    <script src="main.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Everything Formula Plotter</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-xs-12">
+          <textarea id="kInput" class="form-control" rows="5">960939379918958884971672962127852754715004339660129306651505519271702802395266424689642842174350718121267153782770623355993237280874144307891325963941337723487857735749823926629715517173716995165232890538221612403238855866184013235585136048828693337902491454229288667081096184496091705183454067827731551705405381627380967602565625016981482083418783163849115590225610003652351370343874461848378737238198224849863465033159410054974700593138339226497249461751545728366702369745461014655997933798537483143786841806593422227898388722980000748404719</textarea>
+        </div>
+        <div class="col-md-2 col-xs-12">
+          <button class="btn btn-default" id="btnPlot">Plot!</button>
+        </div>
+      </div>
+      <div class="row" style="margin-top:30px;text-align:center;">
+        <canvas id="canvas" width="530" height="85"></canvas>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-xs-12 text-right">
+          <em>Watch the Everything Formula by Numberphile <a href="https://youtu.be/_s5RFgd59ao" target="_blank">here</a> or read more <a href="http://mathworld.wolfram.com/TuppersSelf-ReferentialFormula.html" target="_blank">here</a><br />
+          <a href="http://elmismopancho.cl">elmismopancho.cl</a>
+          </em>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
