@@ -1,7 +1,7 @@
 # everythingformula
 The Eveything Formula Plotter implementation on Javascript
 
-# Dependiencias
+# Dependencies
 Requires big.js (Included on the project) [Original source](https://github.com/MikeMcl/big.js/)
 
 # Live Demo
